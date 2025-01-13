@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\day3">
       <UniqueIdentifier>{3e464892-2682-4f55-bf5a-261e37280d02}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day4">
+      <UniqueIdentifier>{e25e4949-0dae-45fb-982a-1d0c4276a08e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -47,6 +50,15 @@
     </ClCompile>
     <ClCompile Include="상수.c">
       <Filter>소스 파일\day3</Filter>
+    </ClCompile>
+    <ClCompile Include="자료형의변환.c">
+      <Filter>소스 파일\day4</Filter>
+    </ClCompile>
+    <ClCompile Include="언사인드.c">
+      <Filter>소스 파일\day4</Filter>
+    </ClCompile>
+    <ClCompile Include="형식문자.c">
+      <Filter>소스 파일\day4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
