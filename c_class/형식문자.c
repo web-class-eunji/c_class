@@ -21,6 +21,12 @@ int main(void)
 	printf("%5d\n", 123456);
 	printf("%-10d", 123456);
 	printf("%d\n", 1);
-	printf("%010d", 123456);
+	printf("%010d\n", 123456);
+
+	printf("%8.2f\n", 3.14159);
+	printf("%8.3f\n", 3.14159);
+	// 8 : 칸개수
+	// 2 : 소수점 자리수
+	printf("%8.4f\n", 3.14159);
 	return 0;
 }
