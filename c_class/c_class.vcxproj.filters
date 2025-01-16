@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\day6">
       <UniqueIdentifier>{8e18556d-9b80-47ac-ac4f-083ecab0e71b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day7">
+      <UniqueIdentifier>{b568f4a2-2100-415d-bcf6-d466ecfb17a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -95,6 +98,21 @@
     </ClCompile>
     <ClCompile Include="비트단위연산자.c">
       <Filter>소스 파일\day6</Filter>
+    </ClCompile>
+    <ClCompile Include="시프트연산자.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="지하철요금문제.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="if.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="elseif.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="중첩if문.c">
+      <Filter>소스 파일\day7</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
