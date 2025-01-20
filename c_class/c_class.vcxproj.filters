@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\day8">
       <UniqueIdentifier>{1c194577-a593-4a95-af6f-b0a7ab353a90}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day9">
+      <UniqueIdentifier>{0c814964-c2a6-48d2-acdd-1583eb272bd1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -128,6 +131,27 @@
     </ClCompile>
     <ClCompile Include="반복문while문.c">
       <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="while문제.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="dowhile.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="for문.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="무한루프.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="break문.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="continue문.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="중첩for문.c">
+      <Filter>소스 파일\day9</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
