@@ -5,13 +5,19 @@
 * 곱하기 연산 결과 : 0 X 0 = 00  출력
 */
 
-/*
-두 가격 중 더 큰 값을 반환하는 함수
-딸기 가격 입력받고 귤 가격을 입력받아서
-더 비싼 과일의 가격을 출력
-*/
+int multiply(int a, int b)
+{
+	return a * b;
+}
 int main(void)
 {
+	int num1, num2;
+	printf("첫번째 숫자를 입력하세요 : ");
+	scanf_s("%d", &num1);
+	printf("두번째 숫자를 입력해주세요 : ");
+	scanf_s("%d", &num2);
 
+	int result = multiply(num1,num2);
+	printf("곱하기 연산 결과 : %d X %d = %d", num1, num2, result);
 	return 0;
 }
